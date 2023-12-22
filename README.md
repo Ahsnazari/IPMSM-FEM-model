@@ -42,7 +42,7 @@ Optimizing the PM length from 50 to 65 mm:
 
 ![image](https://github.com/Ahsnazari/IPMSM-FEM-model/assets/118515566/a1f46d3f-0c3f-4bd8-b979-a223abd0589e)
 
-which goes to show 65mm is the optimal length of PMs. However the coreloss slightly increases:
+which goes to show 65mm is the optimal length of PMs. However the coreloss slightly increases in 65mm compared to 50 mm:
 
 ![image](https://github.com/Ahsnazari/IPMSM-FEM-model/assets/118515566/d02ecbf6-c4b3-4b7b-859b-f96742c8b120)
 
