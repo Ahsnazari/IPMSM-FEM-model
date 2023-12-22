@@ -3,7 +3,9 @@ A FEM model of IPMSM using Maxwell Software
 
 Interior Permanent Magnet Synchronous Motor (IPMSM) is a type of AC synchronous motor that has its permanent magnets buried inside of rotor in contrast to the traditional Permanent Mganet Synchronous Motor (PMSM) which has permanent magnets mounted on the surface of the rotors. This unique design provides several advantages to the IPMSM, including high power density, high efficiency and a wider range of speed.
 
-In this project a 4 poles, 3phase IPMSM is modelled. Rotor and Stator are designed using M19 steel sheet material and 4 permanent magnets of type NdFe36 are placed inside the rotor. 
+In this project a 4 poles, 3phase IPMSM is modelled. Rotor and Stator are designed using M19 steel sheet material and 4 permanent magnets of type NdFe36 are placed inside the rotor. The input voltage for phase A is as followed:
+
+V = 80sin(2*pi*60*t + teta) where we try and optimize the teta.
 
 Using Maxwell 2d, a physical model is constructed as shown in the figure below, where phase A is shown with the color orange, phase B and C respecively with the colors blue and green. The four permanent magnets used in this projects are highlighted with red and yellow colors inside the rotating part.
 
@@ -45,6 +47,7 @@ Optimizing the PM length from 50 to 65 mm:
 which goes to show 65mm is the optimal length of PMs. However the coreloss slightly increases in 65mm compared to 50 mm:
 
 ![image](https://github.com/Ahsnazari/IPMSM-FEM-model/assets/118515566/d02ecbf6-c4b3-4b7b-859b-f96742c8b120)
+
 
 
 
